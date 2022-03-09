@@ -4,6 +4,8 @@ test('Loan is defined', () => {
   expect(EMI.Loan).toBeDefined()
 })
 
+
+
 test('Should calculate correct EMI installments', () => {
   const loan = EMI.Loan(10000, 12, 10)
 
